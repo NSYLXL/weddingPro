@@ -1,0 +1,16 @@
+{
+  "id": "2156199",
+  "name": "WeddingPro",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "573859",
+      "name": "查看",
+      "font_class": "chakan",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    }
+  ]
+}

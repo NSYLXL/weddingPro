@@ -1,14 +1,57 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Index from '../views/Index.vue' 
+// import Login from '../views/Login.vue'
+// import Register from '../views/Register.vue'
+// import WeddingPhoto from '../views/WeddingPhoto.vue'
+// import Service from '../views/Service.vue'
+// import Travel from '../views/Travel.vue'
+// import News from '../views/News.vue'
+// import Detail from '../views/Detail.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
+    path:'/order',
+    component:()=>import('../views/Order.vue')
+  },
+  {
+    path:'*',
+    component:()=>import('../views/Erro.vue')
+  },
+  {
+    path:'/detail',
+    component:()=>import('../views/Detail.vue')
+  },
+  {
+    path:'/news',
+    component:()=>import('../views/News.vue')
+  },
+  {
+    path:'/travel',
+    component:()=>import('../views/Travel.vue')
+  },
+  {
+    path:'/service',
+    component:()=>import('../views/Service.vue')
+  },
+  {
+    path:'/photo',
+    component:()=>import('../views/WeddingPhoto.vue')
+  },
+  {
+    path:'/register',
+    component:()=>import('../views/Register.vue')
+  },
+  {
+    path:'/login',
+    component:()=>import('../views/Login.vue')
+  },
+  {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Index',
+    component: Index
   },
   {
     path: '/about',

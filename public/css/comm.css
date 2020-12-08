@@ -1,0 +1,40 @@
+body{
+	background-color: #f6f6f6;
+}
+.font_small{font-size: 0.8rem;}
+.font_color{color:#fc93a3}
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+.my_header,.my_footer{
+	width: 100%;
+	border: 0;
+}
+.container{
+	padding-left: 0;
+	padding-right: 0;
+}
+@media (min-width:576px) {
+	.my_header{
+		height:7rem ;
+	}
+	.my_footer{
+		height: 35rem;
+	}
+	.text_hidden{
+		overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;  
+  }
+}
+@media (min-width:992px) {
+	.my_header{
+		height:7rem ;
+	}
+	.my_footer{
+		height: 35rem;
+	}
+}
+
